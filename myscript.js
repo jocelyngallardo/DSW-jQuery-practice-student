@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $("h1").click(function(){
+    $("p").toggle();	  
+  });
+  $("#magic").click(function(){
+	  $(".disappear").hide();
+	  $("img").show();
+  })
+});
